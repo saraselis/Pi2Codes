@@ -1,0 +1,39 @@
+PROC main()
+        loop_mesa:
+        path_parafusos;
+        cont3 := cont3 + 1;
+        IF cont3 > 1 THEN
+        	WHILE cont4 < 2 DO
+        		MoveJ p10, v100, z50, lapis_soldador\WObj:=traj_parafusos;
+        		MoveJ p30, v100, z50, lapis_soldador\WObj:=traj_parafusos;
+        		MoveJ p40, v100, z50, lapis_soldador\WObj:=traj_parafusos;
+        		MoveJ p50, v100, z50, lapis_soldador\WObj:=traj_parafusos;
+        		MoveJ p60, v100, z50, lapis_soldador\WObj:=traj_parafusos;
+        		MoveJ p70, v100, z50, lapis_soldador\WObj:=traj_parafusos;
+        		MoveJ p80, v100, z50, lapis_soldador\WObj:=traj_parafusos;
+        		MoveJ p90, v100, z50, lapis_soldador\WObj:=traj_parafusos;
+        		MoveJ p110, v100, z50, lapis_soldador\WObj:=traj_parafusos;
+        		cont4 := cont4 + 1;
+        	ENDWHILE
+        	Break;
+        ENDIF
+        GOTO loop_mesa;
+
+PROC path_parafusos()
+        MoveL Target_340,v1000,fine,lapis_soldador\WObj:=traj_parafusos;
+        MoveL Target_350,v80,fine,lapis_soldador\WObj:=traj_parafusos;
+        MoveL Target_360,v1000,fine,lapis_soldador\WObj:=traj_parafusos;
+        MoveL Target_370,v1000,fine,lapis_soldador\WObj:=traj_parafusos;
+        MoveL Target_380,v1000,fine,lapis_soldador\WObj:=traj_parafusos;
+        MoveL Target_390,v1000,fine,lapis_soldador\WObj:=traj_parafusos;
+        MoveL Target_400,v1000,fine,lapis_soldador\WObj:=traj_parafusos;
+        MoveL Target_410,v1000,fine,lapis_soldador\WObj:=traj_parafusos;
+        MoveL Target_420,v1000,fine,lapis_soldador\WObj:=traj_parafusos;
+        MoveL Target_430,v1000,fine,lapis_soldador\WObj:=traj_parafusos;
+        MoveL Target_440,v1000,fine,lapis_soldador\WObj:=traj_parafusos;
+        MoveL Target_450,v1000,fine,lapis_soldador\WObj:=traj_parafusos;
+        MoveL Target_460,v1000,fine,lapis_soldador\WObj:=traj_parafusos;
+        MoveL Target_470,v1000,fine,lapis_soldador\WObj:=traj_parafusos;
+        MoveL Target_480,v1000,fine,lapis_soldador\WObj:=traj_parafusos;
+        MoveL Target_340,v1000,fine,lapis_soldador\WObj:=traj_parafusos;
+    ENDPROC
