@@ -1,7 +1,7 @@
 <h1 align="center">Pi2Codes 👋</h1>
 
 
-Repositório desenvolvido durante a Projeto integrador 2 (primeiro bimestre).
+Repositório desenvolvido durante a Projeto integrador 2.
 > Status do Projeto: Doing :heavy_minus_sign:
 
 ## Tópicos implementados :trophy:
