@@ -5,11 +5,18 @@ Repositório desenvolvido durante a Projeto integrador 2 (primeiro bimestre).
 > Status do Projeto: Doing :heavy_minus_sign:
 
 ## Tópicos implementados :trophy:
+### Primeiro Bimestre
 - [X] Código resposta do circuito
 - [X] Código para o controlador
 - [X] Código inicialização arduíno
 - [X] Código controlador PID
 
+### Segundo Bimestre
+- [X] Códigos RAPID
+- [X] Código FlexPendant
+- [X] Vídeos de Demonstração
+- [X] Vídeos de Apresentação
+- [X] Rotas 
 
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
